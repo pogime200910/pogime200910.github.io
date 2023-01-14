@@ -1,0 +1,46 @@
+ @keyframes text-rainbow {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: blue;
+    }
+    100% {
+        color: purple;
+    }
+}
+    
+.Top{position: absolute;
+      top: 0;
+       width: 1903;
+       height: 100;
+       border-radius: 25px;
+      background-color: grey;}
+    
+    h1{position: absolute;
+       right: 900;
+      z-index: 2;
+    font-size: 50;
+     color: b20000;
+     animation: text-rainbow 3s ease-in-out infinite; }
+    
+    
+    .Return_to_menu{position: absolute;
+                    z-index: 2;
+                    font-size: 40;
+                    top: 20;
+                   right: 50;
+                    animation: text-rainbow 3s ease-in-out infinite;
+                   transform: all 0.3 ease-in-out;}
+    
+    .Return_to_menu:hover{transform: scale(1.2);}
+    
