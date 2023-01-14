@@ -24,7 +24,8 @@
        width: 1903;
        height: 100;
        border-radius: 25px;
-      background-color: grey;}
+      background-color: #811818;
+    z-index: 1;}
     
     h1{position: absolute;
        right: 900;
@@ -43,4 +44,13 @@
                    transform: all 0.3 ease-in-out;}
     
     .Return_to_menu:hover{transform: scale(1.2);}
+
+    .video-background video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+      }
     

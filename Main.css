@@ -28,7 +28,7 @@
    h1{ position: relative;
     z-index: 2;
     font-size: 50;
-     color: b20000;
+     color: #b20000;
      animation: text-rainbow 3s ease-in-out infinite;
      }
   
@@ -116,7 +116,3 @@
   min-width: 100%;
   min-height: 100%;
 }
-
-
-
-  
