@@ -1,7 +1,10 @@
-@media (max-width: 600px) {
-  body {
-    font-size: 12px;
-  }
+@media (min-width: 750px) {
+    .Roblox {grid-template-columns: repeat(3, 1fr);}
+    .about {grid-template-columns: repeat(3, 1fr);}
+    .Credits{grid-template-columns: repeat(3, 1fr);}
+    .Dowload{grid-template-columns: repeat(3, 1fr);}
+.top{grid-template-columns: repeat(3, 1fr);}
+  
 }
 
 @keyframes text-rainbow {
@@ -25,14 +28,14 @@
     }
 }
   
-   h1{ position: relative;
+   .Roblox{ position: absolute;
     z-index: 2;
     font-size: 50;
      color: #811818;
      animation: text-rainbow 3s ease-in-out infinite;
     }
   
-   h1{position: absolute;
+   .Roblox{position: absolute;
      left: 100;
      top: 0;
      }
