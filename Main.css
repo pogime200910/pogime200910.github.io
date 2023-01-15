@@ -28,9 +28,9 @@
    h1{ position: relative;
     z-index: 2;
     font-size: 50;
-     color: #b20000;
+     color: #811818;
      animation: text-rainbow 3s ease-in-out infinite;
-     }
+    }
   
    h1{position: absolute;
      left: 100;
@@ -43,19 +43,21 @@
        
         
         font-size: 45;
-        color: cyan;}
+        color: cyan;
+        }
   
   .test2 {position: absolute;
          bottom: 660;
          right: 330;
         font-size: 45;
         color: blue;
-}
+        }
  
   .about {text-align: right;
         
          font-size: 20;
-         color: red;}
+         color: red;
+         }
   .Info{position: absolute;
          top:40;
          right: 360;
@@ -65,7 +67,7 @@
         z-index: 2;
         
          animation: text-rainbow 3s ease-in-out infinite;
-      }
+         }
    .Dowload{position: absolute;
          top:40;
          right: 150;
@@ -75,7 +77,7 @@
         z-index: 2;
          animation: text-rainbow 3s ease-in-out infinite;
           
-      }
+         }
   .Credits{position: absolute;
          top:40;
          right: 510;
@@ -85,7 +87,7 @@
         z-index: 2;
          animation: text-rainbow 3s ease-in-out infinite;
           
-      }
+         }
   
   .Info:hover{transform: scale(1.2);}
   
@@ -98,21 +100,16 @@
        width: 1903;
        height: 100;
        border-radius: 25px;
-      background-color: #811818;}
-.video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+      background-color: #811818;
+      }
 
-.video-background video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-}
+      .image_background{
+        background-image: url("image.png");
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    
+    
+      

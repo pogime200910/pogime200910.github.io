@@ -1,4 +1,10 @@
- @keyframes text-rainbow {
+@media (max-width: 600px) {
+    body {
+      font-size: 12px;
+    }
+  }
+
+@keyframes text-rainbow {
     0% {
         color: red;
     }
@@ -18,21 +24,25 @@
         color: purple;
     }
 }
-    
+
+
 .Top{position: absolute;
       top: 0;
        width: 1903;
        height: 100;
        border-radius: 25px;
       background-color: #811818;
-    z-index: 1;}
+    z-index: 1;
+   }
+    
     
     h1{position: absolute;
        right: 900;
       z-index: 2;
     font-size: 50;
      color: b20000;
-     animation: text-rainbow 3s ease-in-out infinite; }
+     animation: text-rainbow 3s ease-in-out infinite;
+     }
     
     
     .Return_to_menu{position: absolute;
@@ -41,16 +51,46 @@
                     top: 20;
                    right: 50;
                     animation: text-rainbow 3s ease-in-out infinite;
-                   transform: all 0.3 ease-in-out;}
+                   transform: all 0.3 ease-in-out;
+                   width: 20vw;
+                   height: 20vh;}
     
     .Return_to_menu:hover{transform: scale(1.2);}
 
-    .video-background video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        min-width: 100%;
-        min-height: 100%;
+    .image-background {
+        background-image: url("image.png");
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
-    
+      
+      
+    .Evon{position: absolute;
+    z-index: 2;
+bottom: 750;
+right: 970;
+font-size: 50;
+color: #811818;}
+
+.Injector{position: absolute;
+    z-index: 2;
+bottom: 650;
+right: 850;
+font-size: 50;
+color: #811818;}
+
+.Multiple{position: absolute;
+    z-index: 2;
+bottom: 550;
+right: 800;
+font-size: 50;
+color: #811818;}
+
+.Fps_unlocker{position: absolute;
+    z-index: 2;
+bottom: 450;
+right: 870;
+font-size: 50;
+color: #811818;}
+
