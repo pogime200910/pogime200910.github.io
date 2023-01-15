@@ -25,13 +25,7 @@
     }
 }
   
-  .Top{position: absolute;
-      top: 0;
-       width: 1903;
-       height: 100;
-       border-radius: 25px;
-      background-color: #811818;
-    z-index: 1;}
+  
     
     h1{position: absolute;
        right: 900;
