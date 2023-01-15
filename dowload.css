@@ -57,6 +57,14 @@
     
     .Return_to_menu:hover{transform: scale(1.2);}
 
+    .Evon:hover{transform: scale(1.2);}
+
+    .Injector:hover{transform: scale(1.2);}
+
+    .Fps_unlocker:hover{transform: scale(1.2);}
+    
+    .Multiple:hover{transform: scale(1.2);}
+    
     .image-background {
         background-image: url("image.png");
         width: 100%;
@@ -64,8 +72,7 @@
         background-size: cover;
         background-repeat: no-repeat;
       }
-      
-      
+
     .Evon{position: absolute;
     z-index: 2;
 bottom: 750;

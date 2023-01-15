@@ -56,5 +56,12 @@
         width: 100%;
         height: 100%;
         background-size: cover;
-        background-repeat: no-repeat;
-      }
+        background-repeat: no-repeat;}
+
+    .Creator{position: absolute;
+    color: rgb(255, 0, 0);
+    font-size: 50;
+    top: 200;
+    right: 800;
+    font-style: italic;
+    z-index: 2;}
