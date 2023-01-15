@@ -1,8 +1,23 @@
-@media (max-width: 600px) {
-    body {
-      font-size: 12px;
-    }
-  }
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media (min-width: 750px) {
+    .Evon{grid-template-columns: repeat(3, 1fr);}
+    .Fps_unlocker{grid-template-columns: repeat(3, 1fr);}
+    .image-background{grid-template-columns: repeat(3, 1fr);}
+    .Injector{grid-template-columns: repeat(3, 1fr);}
+    .Multiple{grid-template-columns: repeat(3, 1fr);}
+    .Return_to_menu{grid-template-columns: repeat(3, 1fr);}
+}
+    
+
+
+
 
 @keyframes text-rainbow {
     0% {
@@ -71,7 +86,9 @@
 bottom: 750;
 right: 970;
 font-size: 50;
-color: #811818;}
+color: #811818;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
 .Injector{position: absolute;
     z-index: 2;
