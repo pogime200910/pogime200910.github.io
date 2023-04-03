@@ -1,4 +1,94 @@
+.box-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 100px;
+  }
+  
+  .box {
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	width: 400px;
+	height: 300px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	font-size: 20px;
+  }
+  
+  .box h2 {
+	color: black;
+	font-size: 30px;
+	margin-bottom: 20px;
+  }
+  
+  .box p {
+	color: black;
+	font-size: 18px;
+	line-height: 1.5;
+  }
+  
+  button {
+	transition: all 0.3s ease;
+  }
+  
+  button:hover {
+	transform: translateY(-5px);
+  }
+  /* Neon background */
 body {
+	background-color: #000;
+	background-image: linear-gradient(to right, #F0FF00, #FF00FF, #00FFFF);
+	background-size: 200% 200%;
+	animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+	0% {
+	  background-position: 0% 50%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 50%;
+	}
+  }
+  
+  /* Neon top bar */
+  .neon-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	padding: 10px;
+	border-bottom: 2px solid #FFF;
+  }
+  
+  .neon-bar h1 {
+	font-size: 30px;
+	color: #FFF;
+	text-shadow: 0 0 10px #FFF, 0 0 20px #FFF, 0 0 30px #FFF, 0 0 40px #F0FF00, 0 0 70px #F0FF00, 0 0 80px #F0FF00, 0 0 100px #F0FF00;
+  }
+  
+  .neon-bar a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	border: 2px solid #FFF;
+	border-radius: 20px;
+	margin-right: 10px;
+	text-shadow: 0 0 10px #FFF, 0 0 20px #FFF, 0 0 30px #FFF, 0 0 40px #F0FF00, 0 0 70px #F0FF00, 0 0 80px #F0FF00, 0 0 100px #F0FF00;
+  }
+  
+  .neon-bar a:hover {
+	color: #F0FF00;
+	border-color: #F0FF00;
+	text-shadow: 0 0 5px #F0FF00, 0 0 10px #F0FF00, 0 0 15px #F0FF00, 0 0 20px #F0FF00, 0 0 35px #F0FF00, 0 0 40px #F0FF00, 0 0 50px #F0FF00;
+  }
+  body {
 	margin: 0;
 	padding: 0;
 	background-color: black;
@@ -13,10 +103,6 @@ body {
 	left: 0;
 	right: 0;
 	z-index: 1;
-}
-
-#navbar.neon {
-	background-color: transparent;
 }
 
 #navbar ul {
@@ -110,13 +196,4 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
-button {
-	transition: all 0.3s ease;
-	}
-	
-	button:hover {
-	transform: translateY(-5px);
-	}
-	
-	This will add a transition effect to the button, and when the button is hovered over, it will move up 5 pixels. You can adjust the transition timing and the amount of movement by modifying the transition and transform values.
+  
