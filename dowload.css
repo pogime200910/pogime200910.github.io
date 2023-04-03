@@ -15,6 +15,10 @@ body {
 	z-index: 1;
 }
 
+#navbar.neon {
+	background-color: transparent;
+}
+
 #navbar ul {
 	list-style: none;
 	margin: 0;
@@ -97,48 +101,22 @@ body {
 	0% {
 		background-position: 0% 50%;
 	}
+
 	50% {
 		background-position: 100% 50%;
 	}
+
 	100% {
 		background-position: 0% 50%;
 	}
 }
 
-.button {
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 10px;
-	font-size: 20px;
-	color: white;
-	border-radius: 5px;
-	text-decoration: none;
-}
-
-.evon {
-	background-color: #FF4136;
-}
-
-.injector {
-	background-color: #2ECC40;
-}
-
-.multiple {
-	background-color: #0074D9;
-}
-
-.fps-unlocker {
-	background-color: #FFDC00;
-}
-
-.return {
-	display: block;
-	margin-bottom: 20px;
-	font-size: 18px;
-	color: black;
-	text-decoration: none;
-}
-
-.return:hover {
-	color: red;
-}
+button {
+	transition: all 0.3s ease;
+	}
+	
+	button:hover {
+	transform: translateY(-5px);
+	}
+	
+	This will add a transition effect to the button, and when the button is hovered over, it will move up 5 pixels. You can adjust the transition timing and the amount of movement by modifying the transition and transform values.
